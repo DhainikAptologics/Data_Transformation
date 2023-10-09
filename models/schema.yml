@@ -9,7 +9,7 @@ models:
             description: "The primary key for this table"
             tests:
                 - unique
-                - not_null 
+                - not_null
 
     - name: stg_account
       description: "Account Staging"
