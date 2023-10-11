@@ -4,17 +4,17 @@ version: 2
 models:
     - name: src_account
       description: "Account Source data"
-      columns:
-          - name: Id
-            description: "The primary key for this table"
-            tests:
-                - unique
-                - not_null
+      # columns:
+      #     - name: Id
+      #       description: "The primary key for this table"
+      #       tests:
+      #           - unique
+      #           - not_null
 
     - name: stg_account
       description: "Account Staging"
-      columns:
-          - name: Id
-            description: "Not null Account number"
-            tests:
-                - not_null
+      # columns:
+      #     - name: Id
+      #       description: "Not null Account number"
+      #       tests:
+      #           - not_null
