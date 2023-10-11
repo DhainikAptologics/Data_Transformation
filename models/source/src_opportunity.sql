@@ -3,7 +3,7 @@
 with source_opportunity as (
     select *
     from
-    hive_metastore.raw_salesforce.opportunity
+    hive_metastore.dbt_dsuthar.opportunity
 )
 
 select * 
