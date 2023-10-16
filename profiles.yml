@@ -1,0 +1,13 @@
+# Save this file under : c:\Users\admin\.dbt\profiles.yml
+
+default:   # This is same as profile from dbt_project.yml file
+  target: dev
+  outputs:
+    dev:
+      type: 'databricks'  
+      catalog: 'hive_metastore'
+      schema: 'dhainik' # Required
+      host: host # Required
+      http_path: http_path # Required
+      token: token # Required Personal Access Token (PAT) if using token-based authentication
+      threads: 1  # Optional, default 1
